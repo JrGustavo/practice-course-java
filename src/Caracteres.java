@@ -9,8 +9,19 @@ public class Caracteres {
         char simbolo = '@';
         System.out.println("simbolo = "  + simbolo);
         System.out.println("simbolo = caracter: "  + (simbolo == caracter));
+        
+        char espacio = '\u0040';
+        char retroceso = '\b';
+        char tabulador = '\t';
+        char nuevalinea = '\t';
+        char retornoCarro = '\r';
 
-        System.out.println(" char corresponde en byte = ");
+        System.out.println(" char corresponde en byte:"  + System.lineSeparator() + Character.BYTES);
+        System.out.println(" char corresponde en bites:" + espacio + Character.SIZE);
+        System.out.println(" Character.MIN_VALUE:" + espacio + Character.MIN_VALUE);
+        System.out.println(" Character.MAX_VALUE:" + espacio + Character.MAX_VALUE);
+
+
 
 
     }
