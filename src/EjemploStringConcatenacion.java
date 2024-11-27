@@ -15,6 +15,11 @@ public class EjemploStringConcatenacion {
 
         System.out.println(numeroA   + numeroB + detalle);
 
+        String detalle2 = curso.concat(" con ").concat(profesor);
+        System.out.println("detalle2 = " + detalle2 );
+
+
+
 
         
     }
